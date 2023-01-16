@@ -36,8 +36,6 @@ git clone https://github.com/Rania154/FOS.git
 
 5. **Virtual Memory**: In this technique, the operating system uses a technique called "memory paging" to swap pages of memory to and from disk, this allows a process to have a large memory space without consuming all the physical memory. This technique allows for more efficient use of memory and also provides protection for processes, as each process only has access to its own virtual memory.
 
-Each technique has its own advantages and disadvantages, and the choice of which technique to use depends on the specific requirements of the operating system and the system it is running on.
-
 ## Parallel Processing Techniques Used
 
 Parallel processing techniques are used in operating systems to allow multiple programs to be executed simultaneously, utilizing multiple cores or processors. Some of the used parallel processing techniques include:
@@ -50,8 +48,6 @@ Parallel processing techniques are used in operating systems to allow multiple p
 
 4. **Multi-level Feedback Queue (MFQ)**: In this technique, the operating system uses multiple queues to hold processes at different priority levels. Processes that have used a lot of CPU time will be moved to lower-priority queues and processes that have used less CPU time will be moved to higher-priority queues. This technique allows for the efficient execution of important programs and ensures that they are executed before less important programs.
 
-Each technique has its own advantages and disadvantages, and the choice of which technique to use depends on the specific requirements of the operating system and the system it is running on.
-
 ## Synchronization Techniques Used
 
 Synchronization techniques are used in operating systems to ensure that multiple processes or threads do not access shared resources at the same time, which can lead to data inconsistencies and other errors. Some of the used synchronization techniques include:
@@ -59,8 +55,6 @@ Synchronization techniques are used in operating systems to ensure that multiple
 1. **Critical Section**: A critical section is a code segment that accesses shared resources. Only one process can execute a critical section at a time. The operating system uses locks or semaphores to enforce mutual exclusion and prevent multiple processes from executing the critical section at the same time.
 
 2. **Semaphores**: A semaphore is a variable that is used to control access to shared resources. The value of a semaphore can be either 0 or 1, with 0 indicating that the resource is being used by another process and 1 indicating that the resource is available. Processes wait (block) on a semaphore when the value is 0, and are released (unblocked) when the value becomes 1.
-
-Each technique has its own advantages and disadvantages, and the choice of which technique
 
 ## Deadlock Prevention Techniques in Operating Systems
 
