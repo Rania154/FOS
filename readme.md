@@ -56,7 +56,7 @@ Synchronization techniques are used in operating systems to ensure that multiple
 
 2. **Semaphores**: A semaphore is a variable that is used to control access to shared resources. The value of a semaphore can be either 0 or 1, with 0 indicating that the resource is being used by another process and 1 indicating that the resource is available. Processes wait (block) on a semaphore when the value is 0, and are released (unblocked) when the value becomes 1.
 
-## Deadlock Prevention Techniques in Operating Systems
+## Deadlock Prevention Techniques Used
 
 Deadlocks occur when two or more processes are unable to proceed because they are waiting for each other to release a resource. Deadlock prevention techniques are used in operating systems to avoid or break deadlocks. Some of the most used deadlock prevention techniques include:
 
