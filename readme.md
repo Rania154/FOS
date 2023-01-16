@@ -6,9 +6,10 @@ This project is a university project for the Operating Systems (OS) subject. The
 
 ## Team Members
 
-- Rania154
-- John Doe
-- Jane Smith
+- Rania Ahmed
+- Youssif gamal
+- Ahmed Mohammed
+- Mostafa Alaa
 
 ## Features Implemented
 
